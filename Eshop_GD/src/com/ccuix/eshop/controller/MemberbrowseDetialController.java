@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.ccuix.eshop.po.MerchandisePO;
 import com.ccuix.eshop.service.MerchandiseManageService;
 
+
 public class MemberbrowseDetialController extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
@@ -18,6 +19,7 @@ public class MemberbrowseDetialController extends HttpServlet{
 		
 		MerchandisePO merchandisePO = merchandiseManageService.Allmerchandise(id);
 		request.setAttribute("merchandisePO", merchandisePO);
+		System.out.printin("sahjhdj");
 		request.getRequestDispatcher("what.jsp").forward(request, response);
 	}
 }

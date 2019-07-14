@@ -1,4 +1,4 @@
-package com.ccuix.eshop.controller;
+﻿package com.ccuix.eshop.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -13,6 +13,9 @@ import com.ccuix.eshop.po.CartSelectedMerPO;
 import com.ccuix.eshop.po.MemberPO;
 import com.ccuix.eshop.service.CartManegeService;
 
+/**
+ * 这是一个查询商品的controller
+ */
 public class MemberaddCartController extends HttpServlet{
        @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)
