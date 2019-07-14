@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+#box{
+	width:1000px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header {
+	width:1000px;
+	height:100px;
+}
+#header #searchMer{
+	width:400px;
+	height:30px;
+	float:right;
+	margin-top:60px;
+	}
+#header #searchMer img,
+#header #searchMer input,
+#header #searchMer select{
+	float:left;
+	margin-right:10px;
+}
+#menu{
+	width:950px;
+	height:35px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	background:#479ac4;
+}
+#menu #menu_ul{
+	list-style:none;
+	height:35px;
+	width:700px;
+	margin:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu #menu_ul li{
+	float:left;
+	margin-right:53px;
+	font-size: 18px;
+	line-height:35px; 
+}
+#menu #menu_ul li a{
+	color:white;
+	text-decoration:none;
+}
+#menu #menu_ul li a:HOVER{
+	color:red;
+	text-decoration:underline;
+}
+#content{
+	width:1000px;
+}
+#content #special_show{
+	width: 950px;
+	height: 35px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+ #special_show #special_area{
+	margin-top: 5px;
+}
+#content #table_detail{
+   width:950px;
+   height:600px;
+   margin: auto;
+}
+#table_detail .detailSpecialMer{
+	width: 94px;
+	height: 25px;
+	background:url("../images/icon_car.gif"); 
+	border: 0px;
+}
+#table_detail  .buySpecialMer{
+	width: 62px;
+	height: 25px;
+	background:url("../images/icon_buy.gif"); 
+	border: 0px;
+}
+#table_detail  #detail{
+	background:#F0F0F0;
+}
+#table_detail .detail_a{
+	width: 950px;
+	height: 5px;
+    background-color: #F0F0F0;
+}
+#table_detail .detail_b{
+	width: 200px;
+	height: 150px;
+}
+#table_detail .detail_b p{
+	font-size: 13px;
+	
+}
+#footer{
+	width:950px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	background: #479ac4;
+	text-align: center;
+	margin-top: 200px;
+}

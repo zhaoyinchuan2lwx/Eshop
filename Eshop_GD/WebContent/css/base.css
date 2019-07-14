@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+}
+#box{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+    border: 1px solid;
+}
+#header {
+	width:1000px;
+	height:100px;
+}
+#header #searchMer{
+	width:400px;
+	height:30px;
+	float:right;
+	margin-top:60px;
+	}
+#header #searchMer img,
+#header #searchMer input,
+#header #searchMer select{
+	float:left;
+	margin-right:10px;
+}
+#menu{
+	width:950px;
+	height:35px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	background:#479ac4;
+}
+#menu #menu_ul{
+	list-style:none;
+	height:35px;
+	width:700px;
+	margin:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu #menu_ul li{
+	float:left;
+	margin-right:53px;
+	font-size: 18px;
+	line-height:35px; 
+}
+#menu #menu_ul li a{
+	color:white;
+	text-decoration:none;
+}
+#menu #menu_ul li a:HOVER{
+	color:red;
+	text-decoration:underline;
+}
+#content{
+	width:1000px;
+}
+#content #cont_left{
+	width:250px;
+	height:700px;
+	float:left;
+}
+#content #cont_left #left_login{
+	width:200px;
+	height:200px;
+	border:1px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+#left_login h3{
+	margin:0px;
+	width:175px;
+	height:34px;
+	background: url("../images/icon06.gif");
+	text-align: center;
+	line-height: 38px;
+	color:white;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+#left_login .login_infor{
+	font-size: 14px;
+	margin-top: 5px;
+}
+#left_login .login_infor input{
+    width:120px;	
+}
+#left_login #confrimbutton{
+	margin-top: 20px;
+	text-align: center;
+}
+#left_login #confrimbutton input{
+	margin-right: 20px;
+}
+#left_login #confrimbutton #uername{
+	width:73px;
+	height:23px;
+	background: url("../images/button.gif");
+	border:0px;
+}
+#left_login #confrimbutton #password{
+	width:73px;
+	height:23px;
+	background: url("../images/button2.gif");
+	border:0px;
+}
+#content #cont_left #left_up{
+	width:200px;
+	height:350px;
+	border:1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 38px;
+	margin-top: 30px;
+}
+#left_up h3{
+	margin:0px;
+	width:175px;
+	height:34px;
+	background: url("../images/icon01.gif");
+	text-align: center;
+	line-height: 38px;
+	color:white;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+#left_up #up_ul{
+	margin:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#left_up #up_ul li{
+	list-style-image: url("../images/cateIcon.gif")
+}
+#left_up #up_ul li a{
+color: black;
+	text-decoration: none;
+}
+#left_up #up_ul li a:HOVER{
+	color: red;
+	text-decoration: underline;
+}
+#content #cont_right{
+	width:730px;
+	height:700px;
+	float:left;
+	margin-left: 10px;
+}
+#cont_right .right_special{
+	width:730px;
+	height:350px;
+}
+.right_special .special_show{
+	width:730px;
+	height:35px;
+	border:1px solid black;
+}
+.right_special .special_show .special_area{
+	margin-top: 5px;
+}
+.right_special .special_show .special_more{
+	float:right;
+	margin-right:10px;
+	margin-top: 10px; 
+}
+.right_special .special_over{
+	margin-top: 2px;
+	width:730px;
+	height:8px;
+	background: #479ac4;
+}
+.right_special .specialMer{
+	height: 300px;
+	width: 730px;
+}
+.right_special .specialMer .specialMerContent{
+	width: 230px;
+	height: 295px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px
+}
+.right_special .specialMer .specialMerContent p{
+	text-align: center;/*内容居中*/
+	margin: 0px;
+	font-size: 13px;
+}
+.specialMer .specialMerContent p .detailSpecialMer{
+	width: 94px;
+	height: 25px;
+	background:url("../images/icon_car.gif"); 
+	border: 0px;
+}
+.specialMer .specialMerContent p .buySpecialMer{
+	width: 62px;
+	height: 25px;
+	background:url("../images/icon_buy.gif"); 
+	border:0px;
+}
+

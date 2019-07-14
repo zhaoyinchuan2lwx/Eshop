@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+#content #detailMerchandise{
+	width: 950px;
+	height: 29px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content #cartStatus{
+	width: 950px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content #cartStatus table{
+	width: 100%;
+}
+/*购物车当前状态样式*/
+#cartStatus .now{
+	width: 150px;
+	background: #4380CC;
+	border-radius:10px; 
+	text-align: center;
+	color: white;
+}
+#cartStatus .next{
+	width: 150px;
+	background: #E4E4E4;
+	border-radius:10px; 
+	text-align: center;
+}
+/*购物车商品展示*/
+#content  #cartMerchandiseList{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cartMerchandiseList  table{
+	width: 100%;
+	text-align: center;
+	
+}
+#cartMerchandiseList table input{
+	width: 50px;
+}
+#cartMerchandiseList table div{
+	width: 300px;
+	margin: auto;
+	background: url("../images/me03.gif") no-repeat;
+}
+.table_bg{
+	background-color: #E4E4E4;
+}
+#cartButton{
+	text-align: right;
+}
+#footer{
+	width: 950px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2px; 
+	background: #479ac4;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+}

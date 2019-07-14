@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#conten{
+	height:250px;
+	width:400px;
+	margin: auto;
+}
+#conten #sorry{
+	text-align:center;
+	height:200px;
+	width:200px;
+	float:left;
+	margin-left: 20px;
+}
+#footer{
+	width: 950px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2px; 
+	background: #479ac4;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+	flaot:left;
+}

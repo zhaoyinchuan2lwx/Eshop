@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+#content #order{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#order table{
+	width: 100%;
+	border:1 soild;
+}
+#order table.order_col{
+	width:100px;
+	text-align: right;
+	width:400px;
+}
+#order table input{
+	width: 500px;	
+}
+#submitorder{
+	border:none;
+	text-align: center;
+	height: 100px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 100px;
+}

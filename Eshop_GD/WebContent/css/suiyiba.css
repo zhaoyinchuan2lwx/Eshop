@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+#content{
+	height:750px;
+}
+#footer{
+	width: 950px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2px; 
+	background: #479ac4;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+	flaot:left;
+}

@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+#content #order{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#order table{
+	width: 100%;
+	border:1 soild;
+	height: 350px;
+}
+table .table_bg{
+	background: #E4E4E4;
+}
+table .table_bg .order_col{
+	width:300px;
+	text-align: right;
+}
+table .table_bg input{
+	width: 600px;
+}
+table #submitButton{
+	height: 20px;
+}
+table #submitButton input{
+	width:60px;
+	border-radius:10px;
+	background:#479ac4;
+	height: 30px;
+	text-align: center;
+}
+#footer{
+	width: 950px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2px; 
+	background: #479ac4;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+	flaot:left;
+}
